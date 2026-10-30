@@ -1,0 +1,34 @@
+{
+  "data_path": "data/in-vehicle-coupon-recommendation.csv",
+  "result_dir": "results",
+  "split_seed": 42,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "hidden": [
+    64,
+    32
+  ],
+  "depths": [
+    1,
+    2,
+    3
+  ],
+  "widths": [
+    16,
+    64,
+    128
+  ],
+  "batch_size": 128,
+  "epochs": 100,
+  "patience": 15,
+  "learning_rate": 0.001,
+  "threshold": 0.5,
+  "missing_limit": 0.95,
+  "split_folds": 20,
+  "train_folds": 14,
+  "valid_folds": 3,
+  "device": "cpu"
+}
